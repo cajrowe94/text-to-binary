@@ -32,7 +32,7 @@ Arduino arduino;
 
 void setup(){
   //read notepad file
-  readData("C:/Users/cajrowe/Desktop/School Files/NMAT-W305/Servo Binary Converter/speechtoTextArduino.txt");
+  readData("path/to/file");
   prevWordLength = 0;  //intial array length
   
   arduino = new Arduino(this, Arduino.list()[0], 57600);
